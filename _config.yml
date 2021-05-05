@@ -53,8 +53,8 @@ menu:
   - title:             Example
     url:               /example/
     submenu:
-      - title:          Test
-        url:            /devlog/
+      - title:         Test
+        url:           /example/devlog/
   - title:             Devlog
     url:               /devlog/
   - title:             Documentation
