@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               test
+tagline:               SW Engineer
 
 # A list of keywords for your blog
 keywords:              []
@@ -42,15 +42,18 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <JinSu> <Kim>
-  email:               <oe0767@naver.com>
-  # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  name:                Jinsu Kim
+  email:               oe0767@naver.com
+  social:
+    github:          https://ZestGit.github.io
+    email:           oe0767@naver.com
 
 # Add links to the sidebar.
 menu:
   - title:             Example
     url:               /example/
+  - title:             Devlog
+    url:               /devlog/
   - title:             Documentation
     url:               /docs/
   - title:             About
