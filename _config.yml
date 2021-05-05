@@ -51,7 +51,10 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Example
-    url:               /example/
+    children:
+      - title:          Test
+        url:            /devlog/
+    # url:               /example/
   - title:             Devlog
     url:               /devlog/
   - title:             Documentation
