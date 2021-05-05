@@ -9,7 +9,7 @@ url:                   https://ZestGit.github.io
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# baseurl:               '/hydejack-starter-kit'
+baseurl:               ''
 
 
 # General settings
@@ -17,7 +17,7 @@ url:                   https://ZestGit.github.io
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                 ko-KR, en
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Zest
@@ -42,8 +42,8 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                <JinSu> <Kim>
+  email:               <oe0767@naver.com>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
