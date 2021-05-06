@@ -2,7 +2,7 @@
 layout: post
 title: Git 명령어
 description: >
-  Git 명령어 모음
+  Git(1)
 sitemap: true
 hide_last_modified: true
 ---
@@ -20,7 +20,7 @@ Git 명령어를 간단히 정리
 > 2. git add . 
 - Staging Area(스테이지)에 추가한다. 
   - 파일의 수정, 삭제 등의 정보가 Git에 기록한다.
-  - `.` 지정 시 현재까지 변경된 모든 파일 추가한다.
+  - `.` 지정 시 현재까지 변경된 모든 파일을 추가한다.
 
 > git commit -m 'Commit Message'
 - Staging에 있는 파일들을 로컬 저장소에 추가한다.
@@ -38,11 +38,12 @@ Git 명령어를 간단히 정리
 - pull과 달리 병합(Merge)을 처리해주지 않으므로 수동으로 처리한다.
 
 ```
-git 명령어 <remote> <branch>
+git 명령어 [remote] [branch]
 예) git push origin master
 
 위와 같이 origin master를 붙일 경우
- origin은 원격 저장소 이름이고 master는 현재 브랜치의 이름이다. origin이 아닌 다른 이름으로 지정해도 된다.
+ origin은 원격 저장소 이름이고 master는 현재 브랜치의 이름이다. 
+ origin이 아닌 다른 이름으로 지정해도 된다.
 ```
 
 ### `pull과 fetch의 차이`
@@ -50,7 +51,7 @@ git 명령어 <remote> <branch>
  pull은 자동으로 병합(Merge)되기 때문에 어떤 내용이 병합되었는지 알기 힘든 반면 fetch는 원격 저장소와 로컬 저장소의 차이를 비교하여 체크를 할 수 있다.
 
 
-> git clone [주소]
+` git clone [주소]`
 - 원격 저장소에서 프로젝트를 내려받는다.
 
 > git diff
