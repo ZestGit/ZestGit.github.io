@@ -2,7 +2,7 @@
 layout: post
 title: Git 명령어
 description: >
-  Git(1)
+  Git Command
 sitemap: true
 hide_last_modified: true
 ---
@@ -11,26 +11,26 @@ hide_last_modified: true
 주로 사용하는 Git 명령어를 간단히 정리하였으며, 필요할 때마다 추가하도록 할 예정입니다.
 
 
-- 현재 디렉토리에 저장소를 생성한다.
+>현재 디렉토리에 저장소를 생성한다.
 ```
 $ git init
 ```
 
-- 현재까지 변경사항을 조회한다.
 ```
+- 현재까지 변경사항을 조회한다.
 $ git status
 ```
-
+```
 - Staging Area(스테이지)에 추가한다. 
   - 파일의 수정, 삭제 등의 정보를 Git에 기록한다.
   - `.` 지정 시 현재까지 변경된 모든 파일을 추가한다.
-```
+
 $ git add [파일명]  
 $ git add .
 ```
 
-- Staging에 있는 파일들을 로컬 저장소에 추가한다.
-- 'Commit Message'에 변경 사항에 대한 메시지를 입력할 수 있다.
+> Staging에 있는 파일들을 로컬 저장소에 추가한다.
+  - 'Commit Message'에 변경 사항에 대한 메시지를 입력할 수 있다.
 ```
 $ git commit -m 'Commit Message'
 ```
@@ -60,12 +60,13 @@ $ git clone [주소]
 - 수정된 내용을 확인한다.
 ```
 $ git diff
-```
+``` 
 
 - 현재 등록되어있는 브랜치 목록을 확인한다.
 - `-v` 옵션을 주면 상세한 정보를 볼 수 있다.
 ```
-$ git branch
+$ git branch  
+$ git branch -v
 ```
 
 - 브랜치를 생성한다.
@@ -78,7 +79,7 @@ $ git branch [branch명]
 $ git checkout [branch명]
 ```
 
-- 브랜치를 생성하고해당 브랜치로 이동된다.
+- 브랜치를 생성하고 해당 브랜치로 이동된다.
 ```
 $ git checkout -b
 ```
