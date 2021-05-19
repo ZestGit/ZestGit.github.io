@@ -1,8 +1,8 @@
 ---
 layout: list
 type: category
-title: Develog
-slug: develog
+title: Devlog
+slug: devlog
 sidebar: true
 order: 0
 description: >

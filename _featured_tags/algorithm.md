@@ -3,7 +3,7 @@ layout: tag-list
 type: tag
 title: Algorithm
 slug: algorithm
-category: develog
+category: devlog
 sidebar: true
 order: 1
 description: >
