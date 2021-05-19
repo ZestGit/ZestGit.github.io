@@ -4,7 +4,7 @@ title: Git 명령어 모음
 description: >
     Git Command
 category: devlog
-tags: devlopment
+tags: development
 sitemap: true
 hide_last_modified: true
 ---
