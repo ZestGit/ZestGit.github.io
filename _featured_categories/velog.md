@@ -2,7 +2,7 @@
 layout: list
 type: category
 title: Velog
-slug: Velog
+slug: velog
 sidebar: true
 order: 2
 description: >
