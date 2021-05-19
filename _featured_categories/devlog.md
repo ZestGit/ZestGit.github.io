@@ -1,8 +1,10 @@
 ---
 layout: list
-title: Devlog
-slug: Devlog
+type: category
+title: Develog
+slug: develog
+sidebar: true
+order: 0
 description: >
-  Devlog
-sitemap: false
+  Development
 ---
