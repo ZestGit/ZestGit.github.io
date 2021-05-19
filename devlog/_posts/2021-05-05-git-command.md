@@ -7,7 +7,7 @@ sitemap: true
 hide_last_modified: true
 ---
 
-## :rocket: Git 명령어 모음
+## Git 명령어 모음
 주로 사용하는 Git 명령어를 간단히 정리하였으며, 필요할 때마다 추가하도록 할 예정입니다.
 
 ```
