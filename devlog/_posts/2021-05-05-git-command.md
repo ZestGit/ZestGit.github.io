@@ -7,7 +7,7 @@ sitemap: true
 hide_last_modified: true
 ---
 
-## Git 명령어 모음
+## :rocket Git 명령어 모음
 주로 사용하는 Git 명령어를 간단히 정리하였으며, 필요할 때마다 추가하도록 할 예정입니다.
 
 ```
@@ -93,3 +93,7 @@ git branch -d [branch명]
 ## pull과 fetch의 차이
     pull : 자동으로 병합(Merge)되기 때문에 어떤 내용이 병합되었는지 알기 힘들다.
     fetch : 수동으로 병합(Merge)하므로 원격 저장소와 로컬 저장소의 차이를 비교하여 체크를 할 수 있다.
+
+
+
+
