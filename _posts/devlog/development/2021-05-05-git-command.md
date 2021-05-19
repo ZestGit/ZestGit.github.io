@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Git 명령어
+title: Git 명령어 모음
 description: >
-  Git Command
+    Git Command
+category: devlog
+tags: devlopment
 sitemap: true
 hide_last_modified: true
 ---

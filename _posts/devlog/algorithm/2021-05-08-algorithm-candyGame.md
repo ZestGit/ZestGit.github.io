@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Algorithm - 브루트 포스
+title: 브루트 포스 [3085 사탕게임]
 description: >
-    백준 알고리즘 강의 내용 정리  
-sitemap: true
-hide_last_modified: true
+    백준 알고리즘 강의 내용 정리
+category: devlog
+tags: algorithm
 ---
 
 # 📌 브루트 포스 [3085 사탕게임]
----
 
 1. 문제 링크
 2. 문제 접근
