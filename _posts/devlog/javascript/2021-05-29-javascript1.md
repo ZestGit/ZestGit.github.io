@@ -14,6 +14,7 @@ hide_last_modified: true
 ## 기본 내용
 
 JavaScript란 HTML과 CSS 만들어진 웹 페이지를 동적으로 변경할 수 있는 언어
+
 `Vanilla JS`란 Frameworks나 Library를 사용하지 않는 순수한 자바스크립트 
 
 - 특징
@@ -38,6 +39,7 @@ Javascript에 대한 모든 Event는 [MDN](https://developer.mozilla.org/ko/docs
 ### Code
 
 - 기본 변수 사용
+
 ~~~js
  const a = 100;
  let b = a - 5;
@@ -45,6 +47,7 @@ Javascript에 대한 모든 Event는 [MDN](https://developer.mozilla.org/ko/docs
 ~~~
 
 - List 사용
+
 ~~~js
 // [] 안에 값을 넣는다. 
 //(string, boolean, number, array, object 등을 모두 넣을 수 있다.)
@@ -70,6 +73,7 @@ const myInfo =
 ~~~
 
 - 함수 사용
+
 ~~~js
  function sayHello(name, age)
  {
