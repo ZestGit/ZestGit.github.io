@@ -28,7 +28,7 @@ javaScript란 HTML과 CSS 만들어진 웹 페이지를 동적으로 변경할 �
 javascript에 대한 모든 Event는 [MDN](https://developer.mozilla.org/ko/docs/Web/Events)을 참고한다.
 {:.note}
 
-## 기본 문법
+## 변수 선언 (var, let, const)
 
 원래는 `var`밖에 없었는데 ES6 이후 `let`과 `const`가  만들어졌다.
 `var`는 `Hositing` 현상이 발생할 수 있으므로 가급적이면 `let`과 `const`를 사용하는 것이 좋다.
@@ -52,12 +52,12 @@ javascript에 대한 모든 Event는 [MDN](https://developer.mozilla.org/ko/docs
 
 
 ~~~js
- // 에러가 나지 않고 Undefined가 나온다.
- console.log(name); // Undefined
- var name = "Kim";
+// 에러가 나지 않고 Undefined가 나온다.
+console.log(name); // Undefined
+var name = "Kim";
 
 // 왜냐하면 실행 시 호이스팅이 일어나기 때문
-var name; // name 변수가 호이스팅되면서 최상단에 선언
+var name; // name 변수가 호이스팅되면서 최상단에 선언된다.
 console.log(name);
 name = "Kim"; // 값 할당
 ~~~
@@ -81,7 +81,7 @@ console.log(gender); // male
 
 ~~~
 
-### Code
+#### 데이터 타입별 사용 방법
 
 - 기본 변수 사용
 
