@@ -34,6 +34,7 @@ javascript에 대한 모든 Event는 [MDN](https://developer.mozilla.org/ko/docs
 `var`는 `Hositing` 현상이 발생할 수 있으므로 가급적이면 `let`과 `const`를 사용하는 것이 좋다.
 
 - var 특징
+
 ~~~js
 // var는 변수 재선언이 가능하다.
 // 코드량이 많아지면 파악이 힘들고 값이 바뀔 수 있으므로 위험하다.
@@ -44,9 +45,11 @@ javascript에 대한 모든 Event는 [MDN](https://developer.mozilla.org/ko/docs
  console.log(name); // Lee
 ~~~
 
+
 #### Hosting
 `Hosting`이란 함수 안에 있는 선언들을 유효 범위의 최상단에 끌어올리는 것을 말한다.
 변수의 선언과 할당이 동시에 일어나지 않고 분리되는 것이다.
+
 
 ~~~js
  // 에러가 나지 않고 Undefined가 나온다.
