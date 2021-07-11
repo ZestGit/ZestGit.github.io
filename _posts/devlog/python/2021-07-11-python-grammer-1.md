@@ -158,9 +158,10 @@ lst1.remove(3) # 해당 값을 지우기 (여러개 있을 경우 처음 나온 
 lst1.pop() # 마지막 원소가 튀어 나오고 목록에서 제거된다.
 len(lst1) # 리스트 전체 개수 구하기
 ```
-  +=은 두 list를 합쳐 새로운 List를 만들면서 생성과 복사 연산이 일어나 느리다.
-    - List에 항목을 하나씩 추가할 경우 append 사용
-    - list들을 이을 경우 += 또는 Extend 사용 (list를 이을 때는 +=이 extend보다 빠르다.)
+
+`+=`은 두 list를 합쳐 새로운 List를 만들면서 생성과 복사 연산이 일어나 느리다.
+- List에 항목을 하나씩 추가할 경우 `append` 사용
+- list들을 이을 경우 `+=` 또는 `extend` 사용 (list를 이을 때는 `+=`이 `extend`보다 빠르다.)
 {:.note}
 
 ## Dictionary
