@@ -116,15 +116,15 @@ for line in lines:
 score_file.close()
 
 # pickle 모듈 (데이터를 파일 형태로 저장) 객체 직렬화
-# wb로 쓰고 rb로 불러온다.
+# pickle을 쓰기 위해서는 반드시 binary(b)를 지정하고 Encoding은 적을 필요 없음
 import pickle
-profile_file = open("profile.pickle", "wb") # pickle을 쓰기 위해서는 반드시 binary(b)를 지정하고 Encoding은 적을 필요 없음
+profile_file = open("profile.pickle", "wb") # wb
 profile = {"이름":"박명수", "나이":30, "취미":["축구", "골프","코딩"]}
 pickle.dump(profile, profile_file) # profile 데이터를 profile_file에 저장
 profile_file.close()
 
-profile_file = open("profile.pickle", "rb")
-profile = pickle.load(profile_file) # profile.pickle에 있는 정보를 profile에 불러오기
+profile_file = open("profile.pickle", "rb") #rb
+profile = pickle.load(profile_file) # profile.pickle 파일에 있는 정보를 profile에 불러오기
 print(profile)
 profile_file.close()
 
