@@ -11,6 +11,15 @@ hide_last_modified: true
 
 # Python 문법 정리 (1)
 
+1. 기본 문법 및 연산
+2. 문자열
+3. List
+4. Dictionary
+5. Tuple
+6. Set
+7. 자료 구조 변경
+{:toc}
+
 ## 기본 문법 및 연산
 ```python
 # print에 end=" "를 추가하면 줄바꿈을 하지 않는다는 의미
