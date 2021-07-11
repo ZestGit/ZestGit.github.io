@@ -5,7 +5,7 @@ title: Javascript
 slug: javascript
 category: devlog
 sidebar: true
-order: 1
+order: 3
 description: >
    javascript 정리
 ---

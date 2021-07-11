@@ -13,7 +13,10 @@ hide_last_modified: true
 
 ## 기본 내용
 
-javaScript란 HTML과 CSS 만들어진 웹 페이지를 동적으로 변경할 수 있는 언어
+javaScript란 HTML과 CSS로 만들어진 웹 페이지를 동적으로 변경할 수 있는 언어
+javaScript는 모든 브라우저들에 내장되어있다.
+현재까지 프론트엔드가 사용할 수 있는 언어는 자바스크립트 뿐이다.
+
 
 `Vanilla JS`란 Frameworks나 Library를 사용하지 않는 순수한 자바스크립트 
 
@@ -78,7 +81,6 @@ console.log(name); // ReferenceError
     var gender = "male";
 } // var는 외부에서 접근 가능
 console.log(gender); // male
-
 ~~~
 
 #### 데이터 타입별 사용 방법

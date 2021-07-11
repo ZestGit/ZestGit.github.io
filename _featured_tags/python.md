@@ -1,11 +1,11 @@
 ---
 layout: tag-list
 type: tag
-title: Development
-slug: development
+title: Python
+slug: python
 category: devlog
 sidebar: true
-order: 2
+order: 4
 description: >
-   Development
+   python 내용 정리
 ---
