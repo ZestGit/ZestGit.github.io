@@ -158,7 +158,7 @@ lst1.remove(3) # 해당 값을 지우기 (여러개 있을 경우 처음 나온 
 lst1.pop() # 마지막 원소가 튀어 나오고 목록에서 제거된다.
 len(lst1) # 리스트 전체 개수 구하기
 ```
- - +=은 두 list를 합쳐 새로운 List를 만들면서 생성과 복사 연산이 일어나 느리다.
+  +=은 두 list를 합쳐 새로운 List를 만들면서 생성과 복사 연산이 일어나 느리다.
     - List에 항목을 하나씩 추가할 경우 append 사용
     - list들을 이을 경우 += 또는 Extend 사용 (list를 이을 때는 +=이 extend보다 빠르다.)
 {:.note}
@@ -185,7 +185,7 @@ print(cabinet2.values()) # Value 목록 출력
 print(cabinet2.items()) # Key, Value 쌍으로 목록 출력
 ```
 
-### Tuple
+## Tuple
 - List보다 속도가 빠르지만 데이터 변경 및 추가 불가능
 
 ```python
@@ -204,7 +204,7 @@ print(name, age, hobby)
 print(name, age, hobby)
 ```
 
-### Set
+## Set
 ```python
 my_set = {1,2,3,3,3} # 중괄호
 print(my_set)
@@ -233,7 +233,7 @@ print(java - python)
 print(java.difference(python))
 ```
 
-### 자료 구조 변경
+## 자료 구조 변경
 ```python
 menu = {"커피", "우유", "주스"} # set으로 선언
 print(menu, type(menu)) # set
