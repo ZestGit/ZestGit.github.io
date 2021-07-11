@@ -66,15 +66,13 @@ print(randint(1, 45)) # 1 부터 45 이하의 임의의 값 생성
 text = "hobby"
 text.count('b') # 들어간 문자열의 개수를 세어준다.
 text.find('b') # 가장 먼저 나오는 b의 인덱스를 가져오는데 없으면 -1 Return
-text.index('b') # 가장 먼저 나오는 b의 인덱스를 가져오는데 없으면 에러 처리
+text.index('b') # 가장 먼저 나오는 b의 인덱스를 가져오는데 없으면 Exception 발생
 
 text = ",".join("abcd") # a,b,c,d (abcd 사이에 ,를 넣어준다.)
 text = "  a bcd  ".strip() # a bcd (양 끝 공백을 없애준다.)
+text = text.replace("ho", "aa") # aabby (문자열 대체)
 
-text = "test"
-text = text.replace("te", "aa") # aast (문자열 대체)
-
-text = "Life is too short"
+text = "a b c d"
 text.split() # 문자열을 띄어쓰기 기준으로 자른다. (Default)
 
 text = "a:b:c:d"
@@ -95,7 +93,7 @@ print("나는 %s살입니다." % 20) # %s 는 모두 가능
 # 방법 2
 print("나는 {}살입니다.".format(20))
 print("나는 {}색과 {}색을 좋아합니다.".format("빨간", "파란"))
-print("나는 {1}색과 {0}색을 좋아합니다.".format("빨간", "파란"))
+print("나는 {1}색과 {0}색을 좋아합니다.".format("빨간", "파란")) # 파란색과 빨간색을 좋아합니다.
 
 # 방법 3
 print("나는 {age}살이며, {color}색을 좋아해요.".format(age = 20, color = "빨간"))
@@ -129,7 +127,7 @@ lstString[0] = "정형돈"
 lstString[0:2] = ["정형돈", "하하"] # 0부터 2미만까지 변경 가능 (0, 1 값 변경)
 
 # 값 삭제
-lstString[0:2] = [] # 0, 1번 값 삭제
+lstString[0:2] = [] # 0, 1번 값 삭제 (빈 리스트 할당)
 del lstString[0] # 0번 삭제
 
 # list도 string처럼 더하기 연산 가능
@@ -147,19 +145,18 @@ print(lst1) # [1,2,3,7,8]
 lst1.sort() # 정렬
 lst1.reverse() # 뒤집기
 lst1.clear()  # 모두 지우기
-lst1.remove(3) # 해당 값을 지우기 (여러개 있을 경우 1개만 지움)
+lst1.remove(3) # 해당 값을 지우기 (여러개 있을 경우 처음 나온 1개만 지움)
 lst1.pop() # 마지막 원소가 튀어 나오고 목록에서 제거된다.
 len(lst1) # 리스트 전체 개수 구하기
 ```
-+=은 두 list를 합쳐 새로운 List를 만들면서 생성과 복사 연산이 일어나 느리다.
-- List에 항목을 하나씩 추가할 경우 append 사용
-- list들을 이을 경우 += 또는 Extend 사용 (list를 이을 때는 +=이 extend보다 빠르다.)
+- +=은 두 list를 합쳐 새로운 List를 만들면서 생성과 복사 연산이 일어나 느리다.
+    - List에 항목을 하나씩 추가할 경우 append 사용
+    - list들을 이을 경우 += 또는 Extend 사용 (list를 이을 때는 +=이 extend보다 빠르다.)
 {:.note}
 
 
 ## Dictionary
 ```python
-
 # Key, Value { Key : Value } 중괄호
 cabinet = {3 : "유재석", 100 : "김태호"} 
 print(cabinet[5]) # 값이 없으면 exception 발생
@@ -182,6 +179,7 @@ print(cabinet2.items()) # Key, Value 쌍으로 목록 출력
 
 ### Tuple
 - List보다 속도가 빠르지만 데이터 변경 및 추가 불가능
+
 ```python
 # 괄호, 콤마
 menu = ("돈까스", "치즈까스") 
