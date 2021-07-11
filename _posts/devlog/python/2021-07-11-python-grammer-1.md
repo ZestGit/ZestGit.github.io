@@ -13,11 +13,12 @@ hide_last_modified: true
 
 1. 기본 문법 및 연산
 2. 문자열
-3. List
-4. Dictionary
-5. Tuple
-6. Set
-7. 자료 구조 변경
+3. 자료형
+    1. List
+    2. Dictionary
+    3. Tuple
+    4. Set
+4. 자료 구조 변경
 {:toc}
 
 ## 기본 문법 및 연산
@@ -26,10 +27,16 @@ hide_last_modified: true
 print("Python", end=" ")
 print("C++") # 한줄에 python C++이 출력된다.
 
+# 삼항 연산자
+a = 5
+b = 10
+print("같다" if a is b else "다르다")
+print("같지 않다" if a is not b else "같다")
+
 print(4 / 2) # 2.0 나누기
 print(4 // 2) # 2 나눈 몫
 print(4 % 3) # 1 나머지
-print(2 ** 2) # 4 승수(2의 2제곱)
+print(2 ** 2) # 4 거듭제곱(2의 2제곱)
 
 # & 와 and 같이 쓸 수 있음
 print((3 > 0) and (3 < 5))
@@ -122,7 +129,9 @@ print(sentence[8:]) # 8번 인덱스 이상부터 끝까지 출력 -> oshort
 print(sentence[::2]) # 2칸 간격으로 처음부터 끝까지 출력 -> Lfitohr
 ```
 
-## List
+## 자료형
+
+### List
 ```python
 lstString = ["유재석", "박명수", "정준하", "노홍철"] # string List
 lstAll = [1, 2, "int", ["1", "2"]] # int, string, list를 모두 list에 넣을 수도 있다.
@@ -163,7 +172,7 @@ len(lst1) # 리스트 전체 개수 구하기
 * List에 항목을 하나씩 추가할 경우 `append` 사용
 * list들을 이을 경우 `+=` 또는 `extend` 사용 (list를 이을 때는 `+=`이 `extend`보다 빠르다.)
 
-## Dictionary
+### Dictionary
 ```python
 # Key, Value { Key : Value } 중괄호
 cabinet = {3 : "유재석", 100 : "김태호"} 
@@ -185,7 +194,7 @@ print(cabinet2.values()) # Value 목록 출력
 print(cabinet2.items()) # Key, Value 쌍으로 목록 출력
 ```
 
-## Tuple
+### Tuple
 - List보다 속도가 빠르지만 데이터 변경 및 추가 불가능
 
 ```python
@@ -204,7 +213,7 @@ print(name, age, hobby)
 print(name, age, hobby)
 ```
 
-## Set
+### Set
 ```python
 my_set = {1,2,3,3,3} # 중괄호
 print(my_set)
