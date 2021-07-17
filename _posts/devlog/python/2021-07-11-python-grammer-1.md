@@ -21,7 +21,7 @@ hide_last_modified: true
 4. 자료 구조 변경
 {:toc}
 
-## 1. 기본 문법 및 연산
+## 기본 문법 및 연산
 ```python
 # print에 end=" "를 추가하면 줄바꿈을 하지 않는다는 의미
 print("Python", end=" ")
@@ -74,7 +74,7 @@ print(randint(1, 45)) # 1 부터 45 이하의 임의의 값 생성
 
 ```
 
-## 2. 문자열
+## 문자열
 - 문자열은 ''' ''', """ """ 3개까지 묶을 수 있음
 
 ```python
@@ -129,9 +129,9 @@ print(sentence[8:]) # 8번 인덱스 이상부터 끝까지 출력 -> oshort
 print(sentence[::2]) # 2칸 간격으로 처음부터 끝까지 출력 -> Lfitohr
 ```
 
-## 3. 자료형
+## 자료형
 
-### 3.1 List
+### List
 ```python
 lstString = ["유재석", "박명수", "정준하", "노홍철"] # string List
 lstAll = [1, 2, "int", ["1", "2"]] # int, string, list를 모두 list에 넣을 수도 있다.
@@ -172,7 +172,7 @@ len(lst1) # 리스트 전체 개수 구하기
 * List에 항목을 하나씩 추가할 경우 `append` 사용
 * list들을 이을 경우 `+=` 또는 `extend` 사용 (list를 이을 때는 `+=`이 `extend`보다 빠르다.)
 
-### 3.2 Dictionary
+### Dictionary
 ```python
 # Key, Value { Key : Value } 중괄호
 cabinet = {3 : "유재석", 100 : "김태호"} 
@@ -194,7 +194,7 @@ print(cabinet2.values()) # Value 목록 출력
 print(cabinet2.items()) # Key, Value 쌍으로 목록 출력
 ```
 
-### 3.3 Tuple
+### Tuple
 - List보다 속도가 빠르지만 데이터 변경 및 추가 불가능
 
 ```python
@@ -213,7 +213,7 @@ print(name, age, hobby)
 print(name, age, hobby)
 ```
 
-### 3.4 Set
+### Set
 ```python
 my_set = {1,2,3,3,3} # 중괄호
 print(my_set)
@@ -242,7 +242,7 @@ print(java - python)
 print(java.difference(python))
 ```
 
-## 4. 자료 구조 변경
+## 자료 구조 변경
 ```python
 menu = {"커피", "우유", "주스"} # set으로 선언
 print(menu, type(menu)) # set

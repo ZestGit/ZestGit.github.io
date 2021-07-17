@@ -18,7 +18,7 @@ hide_last_modified: true
     2. 외장함수
 {:toc}
 
-## 1. 모듈
+## 모듈
 
 - 모듈 파일 `theater_module.py` 생성
 
@@ -58,7 +58,7 @@ from theater_module import price, price_morning # 특정 함수들만 사용
 from theater_module import price_soldier as price_s # 특정 함수에 별명을 붙여 사용
 ```
 
-## 2. 패키지
+## 패키지
 
 폴더를 만들고 하위에 다음과 같이 파일을 만든다.
 
@@ -124,9 +124,9 @@ trip_to2.detail()
 >- `pip install --upgrade 패키지명` : 패키지 업데이트
 
 
-## 3. 내장 함수와 외장 함수
+## 내장 함수와 외장 함수
 
-### 3.1 내장 함수
+### 내장 함수
 
 - `list of python builtins`를 검색하면 내장 함수들에 대한 정보를 얻을 수 있다.
 
@@ -135,7 +135,7 @@ trip_to2.detail()
 >- `input` : 사용자 입력을 받는 함수
 >- `dir` : 어떤 객체를 넘겼을 때 객체가 어떤 변수와 함수를 가지고 있는지 표시
 
-### 3.2 외장 함수
+### 외장 함수
 
 - `list of python modules`를 검색하면 외장 함수들에 대한 정보를 얻을 수 있다.
 

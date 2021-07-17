@@ -17,7 +17,7 @@ hide_last_modified: true
 
 # 예외 처리
 
-## 1. try except
+## try except
 
 ```python
 try:
@@ -35,7 +35,7 @@ except Exception as err: # 모든 에러
     print(err)
 ```
 
-## 2. 사용자 정의 예외 처리
+## 사용자 정의 예외 처리
 
 - `raise`로 예외를 발생시킨다.
 
