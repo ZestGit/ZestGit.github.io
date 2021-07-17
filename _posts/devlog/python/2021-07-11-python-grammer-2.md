@@ -19,7 +19,7 @@ hide_last_modified: true
 5. 함수 기본값, 키워드, 가변 인자 등
 {:toc}
 
-## if
+## 1. if
 ```python
 weather = input("오늘 날씨는 어때요? ")
 if weather == "비" or weather == "눈":
@@ -40,7 +40,7 @@ else:
     print("너무 추워요")
 ```
 
-## for
+## 2. for
 ```python
 wait = []
 for waiting_num in range(1, 6):
@@ -74,7 +74,7 @@ students = [i.upper() for i in students]
 print(students)
 ```
 
-## while
+## 3. while
 ```python
 customer = "토르"
 index = 5
@@ -92,7 +92,7 @@ while person != customer :
     person = input("이름이 어떻게 되세요? ")
 ```
 
-## 함수 선언
+## 4. 함수 선언
 ```python
 # def로 함수 선언
 def open_account():
@@ -117,7 +117,7 @@ comm, money = withdraw_night(2000, 100) # 튜플로 받기
 print("수수료 : {0}, 잔액 : {1}".format(comm, money))
 ```
 
-## 함수 기본값, 키워드, 가변 인자 등
+## 5. 함수 기본값, 키워드, 가변 인자 등
 ```python
 # 기본값
 # 줄바꿈할 때는 \를 치고 한칸 내린다.

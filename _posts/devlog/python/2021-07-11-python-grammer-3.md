@@ -17,7 +17,7 @@ hide_last_modified: true
 3. 파일 입출력
 {:toc}
 
-## 표준 입출력
+## 1. 표준 입출력
 
 - print문에서 사용되는 옵션
     - `sep` : 단어를 분리할 구분자 지정
@@ -48,7 +48,7 @@ for num in range(1, 21):
     print("대기번호 : " + str(num).zfill(3)) # 대기번호 : 001, 002, ...
 ```
 
-## 다양한 출력 포맷
+## 2. 다양한 출력 포맷
 ```python
 # 빈 자리는 빈공간으로 두고, 오른쪽 정렬, 총 10자리 공간 확보
 print("{0: >10}".format(500)) #       500
@@ -77,7 +77,7 @@ print("{0:f}".format(5/3)) # 1.666667
 print("{0:.2f}".format(5/3)) # 1.67
 ```
 
-## 파일 입출력
+## 3. 파일 입출력
 ```python
 score_file = open("score.txt", "w", encoding="utf8") # 덮어쓰기
 # print문 사용하여 쓰기
