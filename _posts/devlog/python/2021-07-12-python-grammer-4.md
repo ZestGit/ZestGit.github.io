@@ -18,7 +18,7 @@ hide_last_modified: true
 {:toc}
 
 
-## Class 특징
+## Class
 
 - 파이썬에서 `class` 네이밍 컨벤션은 `CamelCase`를 사용한다.
 - C++과 같이 다중 상속이 가능하다.
@@ -61,8 +61,10 @@ class Flight:
 class MyClass:
     # 클래스 속성
     attr = [] # 속성명 = 값 -> 여러 객체가 공유한다.
+    __name = "MyClass" # 비공개 ㄹ래스 속성
 
     def __init__(self):
+        # 인스턴스 속성을 같은 이름으로 선언
         self.attr = [] # 같은 속성이 있을 경우 인스턴스부터 찾음
 ```
 
@@ -71,7 +73,7 @@ class MyClass:
 ```python
 # 상속
 class AttackUnit(Unit): # 공격 유닛
-    def __init__(self, name, hp, speed, damage): # __init__ 파이썬에서 쓰이는 생성자
+    def __init__(self, name, hp, speed, damage):
         Unit.__init__(self, name, hp, speed) # 부모 생성자 호출
         self.damage = damage
     
@@ -116,18 +118,19 @@ class BuildingUnit(Unit):
         # pass # 아무런 동작을 하지 않고 다음 코드 계속해서 진행
 ```
 
-mro() 메소드를 통해 클래스의 상속 관계를 확인할 수 있다.
+`mro()` 메소드를 통해 클래스의 상속 관계를 확인할 수 있다.
 {:.note}
 
 ### 추상 클래스
 
 - `abc` 모듈을 import 해야한다.
+- 추상 메소드에 `@abstractmethod` 데코레이터를 붙인다.
 
 ```python
 from abc import *
 
 class AbstractStudent(metaclass=ABCMeta):
-    @abstractmethod
+    @abstractmethod # 추상 메소드 데코레이터
     def study(self):
         pass
 
