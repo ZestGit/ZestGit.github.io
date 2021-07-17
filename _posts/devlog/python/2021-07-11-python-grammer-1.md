@@ -22,6 +22,12 @@ hide_last_modified: true
 {:toc}
 
 ## 기본 문법 및 연산
+
+- Naming Rule
+    1. 클래스 : 첫 글자가 대문자인 `Pascal Case`를 쓰고 `_`는 사용하지 않는다.
+    2. 상수 : 모두 대문자로 쓰고 단어 사이에 `_`를 넣는다.
+    3. 변수, 함수, 모듈명(파일명) : 모두 소문자로 쓰고 단어 사이에 `_`를 넣는다. (`Snake Case`)
+
 ```python
 # print에 end=" "를 추가하면 줄바꿈을 하지 않는다는 의미
 print("Python", end=" ")
