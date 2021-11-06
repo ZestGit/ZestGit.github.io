@@ -5,7 +5,7 @@ title: Python
 slug: python
 category: devlog
 sidebar: true
-order: 4
+order: 5
 description: >
    python 내용 정리
 ---
