@@ -4,7 +4,7 @@ title: gulp (4) sass를 css로 변경
 description: >
     gulp 내용 정리
 category: devlog
-tags: gulp
+tags: javascript
 sitemap: true
 hide_last_modified: true
 ---

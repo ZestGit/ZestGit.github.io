@@ -1,10 +1,10 @@
 ---
 layout: post
-title: gulp (1) 모든 pug파일을 HTML로 바꾸는 Task
+title: gulp (1) 모든 pug파일을 HTML로 바꾸기
 description: >
     gulp 내용 정리
 category: devlog
-tags: gulp
+tags: javascript
 sitemap: true
 hide_last_modified: true
 ---
