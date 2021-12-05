@@ -4,7 +4,7 @@ title: gulp (6) Deploy
 description: >
     gulp 내용 정리
 category: devlog
-tags: gulp
+tags: javascript
 sitemap: true
 hide_last_modified: true
 ---
