@@ -20,7 +20,7 @@ baseurl:               ''
 lang:                 ko-KR, en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Js
+title:                 JS
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -32,7 +32,7 @@ description:           >
 tagline:               C++ SW Engineer
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [C++, C#]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
